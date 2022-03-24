@@ -30,5 +30,5 @@
 ### Done -> "open()" function
 ### open() -> returns a "file handle" (a variable used to perform operations on the file)
 ### Similar to "File -> Open" in a Word Processor
-#### handle = open(filename, mode), mode -> read it or write it, -> Ex. fhand = open("mbox.txt", "r") (fhand - file handle), \n -> new line
+#### handle = open(filename, mode), mode -> read it (r) or write it (w), -> Ex. fhand = open("mbox.txt", "r") (fhand - file handle), \n -> new line
 ### .read() -> used to read the file
