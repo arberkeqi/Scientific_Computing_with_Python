@@ -11,6 +11,8 @@
 ### lstrip() and rstrip() -> remove the whitespace at the left or right
 ### strip() -> removes both beginning and ending whitespace
 ### .startswith() -> does this line starts with a particular thing (letter or word), returns True or False
+### open() -> returns a "file handle" (a variable used to perform operations on the file)
+### quit() -> use to quit the program, never returns
 
 ## Some Definitions
 ### parameter -> is a variable which is used in the function definition. It is a "handle" that allows the code in the function to access the argument for a particular function invocation.
@@ -22,3 +24,11 @@
 ### is not -> also an operator
 ### string -> is a sequence of characters, for strings, "+" means "concatenate"
 ### "in" keyword -> can be used to check to see if one string is "in" another string, is a logical expression that returns True or False and can be used in an if statement -> has Built-in string functions, called "string library" 
+
+## Opening a file
+### Before reading we have to tell Python which file we are going to work and what we'll be doing in this file
+### Done -> "open()" function
+### open() -> returns a "file handle" (a variable used to perform operations on the file)
+### Similar to "File -> Open" in a Word Processor
+#### handle = open(filename, mode), mode -> read it or write it, -> Ex. fhand = open("mbox.txt", "r") (fhand - file handle), \n -> new line
+### .read() -> used to read the file
