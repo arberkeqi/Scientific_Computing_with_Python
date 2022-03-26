@@ -1,6 +1,10 @@
 # Use the file name mbox-short.txt as the file name
 fname = input("Enter file name: ")
-fhand = open(fname)
+try:
+    fhand = open(fname)
+except:
+    print("The file name {} is invalid. Please try again!".format(fname))
+    quit()
 count = 0
 total = 0
 avg = 0
@@ -18,8 +22,8 @@ for line in fhand:
         count = count + 1
         # find the sum
         total = total + num
-        # find average
-        avg = total / count
+# find average
+avg = total / count
 print("There are {} lines.".format(count))
 print("Average spam confidence: {}".format(avg))
 print("Done")

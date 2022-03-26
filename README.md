@@ -11,8 +11,19 @@
 ### lstrip() and rstrip() -> remove the whitespace at the left or right
 ### strip() -> removes both beginning and ending whitespace
 ### .startswith() -> does this line starts with a particular thing (letter or word), returns True or False
-### open() -> returns a "file handle" (a variable used to perform operations on the file)
+### open(fname) -> returns a "file handle" (a variable used to perform operations on the file)
 ### quit() -> use to quit the program, never returns
+### range() -> returns a list of numbers that range from zero to less than the parameter
+### append -> add elemnts in the list
+### count -> look for certain values on a list
+### extend -> add things in the end of the list
+### index -> looks things up in a list
+### insert -> allows the list to expand in the middle
+### pop -> pulls things off the top
+### remove -> removes an item in the middle
+### reverse -> flips the order of them
+### sort -> puts them in sorted order based on the values
+### split() -> if we have a string it breaks it out, looks for blanks and gives us a list of strings; split the things based on spaces
 
 ## Some Definitions
 ### parameter -> is a variable which is used in the function definition. It is a "handle" that allows the code in the function to access the argument for a particular function invocation.
@@ -32,3 +43,18 @@
 ### Similar to "File -> Open" in a Word Processor
 #### handle = open(filename, mode), mode -> read it (r) or write it (w), -> Ex. fhand = open("mbox.txt", "r") (fhand - file handle), \n -> new line
 ### .read() -> used to read the file
+
+## Lists
+### What is not a Collection -> Variables are not collections -> you can store only one value in a variable
+### What is a Collection -> like suitcases, we can put a lot of things in them. Ex. -> a list friends = ["Joseph", "Glenn", "Sally"]
+### List constants are surrounded by square brackets and the elements in the list are separated by commas
+### A list element can be any Python object - even another list
+### A list can be empty
+### Lists are mutable -> they can change
+### the range function -> returns a list of numbers that range from zero to less than the parameter, can construct an index loop using for and an integer iterator
+### We can concatenate lists using "+"
+### Lists can be sliced
+### dir -> remind the commends on a list (dir(x)) , [append, count, extend, index, insert, pop, remove, reverse, sort]
+### we can create an empty list and add elemnts using append
+### "in" -> used to see if True or False
+### lists are sortable 
