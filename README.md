@@ -1,15 +1,15 @@
 # Scientific_Computing_with_Python
 
 ## Built-in Functions
-### def (definition) -> doesn't run a code it remembers it and stores it there (store face) creates a bit of code and records it like a macro and it names whatever you choose -> we do this so we can't reuse the same lines and if there is a problem we can fix it easier
-### break -> ends the current loop and jumps the statemnet immediatly following the loop
-### continue -> ends the current iteration and jumps to the top of the loop and starts the next iteartion
-### .find() -> function to search for a substring within another string, if not found returns -1
-### .upper() -> upper case
-### .lower() -> lower case 
-### .replace() -> search and replace operation, replaces all the occurences of the search string with the replacement string
-### lstrip() and rstrip() -> remove the whitespace at the left or right
-### strip() -> removes both beginning and ending whitespace
+##### def (definition) -> doesn't run a code it remembers it and stores it there (store face) creates a bit of code and records it like a macro and it names whatever you choose -> we do this so we can't reuse the same lines and if there is a problem we can fix it easier
+##### break -> ends the current loop and jumps the statemnet immediatly following the loop
+##### continue -> ends the current iteration and jumps to the top of the loop and starts the next iteartion
+##### .find() -> function to search for a substring within another string, if not found returns -1
+##### .upper() -> upper case
+##### .lower() -> lower case 
+##### .replace() -> search and replace operation, replaces all the occurences of the search string with the replacement string
+##### lstrip() and rstrip() -> remove the whitespace at the left or right
+##### strip() -> removes both beginning and ending whitespace
 ### .startswith() -> does this line starts with a particular thing (letter or word), returns True or False
 ### open(fname) -> returns a "file handle" (a variable used to perform operations on the file)
 ### quit() -> use to quit the program, never returns
