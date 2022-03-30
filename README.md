@@ -77,3 +77,14 @@
 ##### Error -> can get an error to refrence a key which is not in the dictionary; can use "in" to see if a key is in the dictionary 
 ##### get method -> counts.get(name, 0); counts - dictionary; name - key; 0 - default
 ##### we can loop through the key-value pairs in a dictionary using "two" iteration variables; in each iteration the first value is the key and the second one is the corresponding value for the key; ONLY PYTHON FEATURE
+
+## Tuples 
+##### -> are like lists; limited lists
+##### -> are another kind of sequence that functions much like a list; they have elements which are indexed starting at 0
+##### -> they don't use square brackets; but you to look at the positions you have to use square brackets
+##### -> are immutable, unlike a list, once you create a tuple, you cannot alter its contents - similar to a string
+##### Build-in -> count() & index(); these are the only ones from list that work at tuples
+##### -> we like them because they are more efficent in memory use and performance than lists
+##### -> can put tuple on the left-hand side of an assignment statement; Ex. (x, y) = (4, 'fred') -> x = 4 & y = fred
+##### -> the items() method in dictionaries returns a list of (key, value) tuples
+##### -> tuples can be compared; if the first item is equal, Python goes on to the next element, and so on, until it finds elements that differ
