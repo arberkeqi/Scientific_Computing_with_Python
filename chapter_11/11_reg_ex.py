@@ -1,5 +1,3 @@
-from itertools import count
-import numbers
 import re
 fname = input("Enter the name of the file: ")
 if len(fname) < 1 :
@@ -16,7 +14,7 @@ for lines in fhand:
     nstring = re.findall('[0-9]+', lines)
     if len(nstring) != 1:
         continue
-    num = int(nstring)
+    num = int(nstring[0])
     # counts[num] = counts.get(num, 0) + 1
     numList.append(num)
 # print("There are {} numbers.".format(counts))
