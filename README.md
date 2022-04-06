@@ -88,3 +88,28 @@
 ##### -> can put tuple on the left-hand side of an assignment statement; Ex. (x, y) = (4, 'fred') -> x = 4 & y = fred
 ##### -> the items() method in dictionaries returns a list of (key, value) tuples
 ##### -> tuples can be compared; if the first item is equal, Python goes on to the next element, and so on, until it finds elements that differ
+
+## Regular Expressions
+##### regex/regexp -> provide a concise and flexible means for matching string of text
+##### -> a regular expression is a written in a formal language that can be interpreted by a regular expresion processor (find or search)
+##### -> very powerful and quite cryptic; like a language unto themselves; programming with characters; "old school" language - compact
+##### -> it is character based not line based or keyword based
+##### -> is not part of python; have to import it; "import re"
+##### re.search() -> see if a string matches a regular expression, similar to find() method for strings
+##### re.findall() -> extract portions of a string that match your regular expression
+
+## Regular Expression Quick Guide
+##### ^        Matches the beginning of a line
+##### $        Matches the end of the line
+##### .        Matches any character
+##### \s       Matches whitespace
+##### \S       Matches any non-whitespace character
+##### *        Repeats a character zero or more times
+##### *?       Repeats a character zero or more times (non-greedy)
+##### +        Repeats a character one or more times
+##### +?       Repeats a character one or more times (non-greedy)
+##### [aeiou]  Matches a single character in the listed set
+##### [^XYZ]   Matches a single character not in the listed set
+##### [a-z0-9] The set of characters can include a range
+##### (        Indicates where string extraction is to start
+##### )        Indicates where string extraction is to end
