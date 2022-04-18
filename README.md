@@ -113,3 +113,42 @@
 ##### [a-z0-9] The set of characters can include a range
 ##### (        Indicates where string extraction is to start
 ##### )        Indicates where string extraction is to end
+
+## Network Programming
+### TCP Connections/Sockets
+##### Internet Socket -> is an endpoint of a bidirectonal inter-process communication flow across an Internet Protocol-based computer network, such as the Internet
+### TCP Port Numbers
+##### -> application-specific or process-specific software communications endpoint
+##### -> multiple applications can coexist on the same server
+##### Python has built-in support for TCP Sockets
+##### UTF-16 -> Fixed length -> Two bytes
+##### UTF-32 -> Fixed Length -> Four bytes
+##### UTF-8 -> 1-4 bytes
+###### Compatible with ASCII
+###### automatic detection between ASCII and UTF-8
+###### UTF-8 -> recommended practice for encoding data to be exchanged between systems
+##### Python 3 -> all strigs internally are UNICODE
+
+## HTTP
+##### HyperText Transfer Protocol -> is the set of rules to allow browsers to retrieve web documents from servers over the internet
+##### Protocol -> a set of rules that all parties follow so we can predict each other's behaviour; and not bump into each other
+##### Since HTTP is so common -> have a library that does all the socket work for us and makes web pages look like a file
+
+## Web Scraping
+##### -> the act of retreiving a web page or extracting the links from those webpage, making a q of unretrieve links 
+### Why Scrape?
+##### -> pull data from a social data
+##### -> get your own data back out of some system that has no "export capability"
+##### -> monitor a site for new info
+##### -> spider the web to make database for a search engine
+
+## Common TCP Ports
+##### Telnet(23) -> Login
+##### SSH(22) -> Secure Login
+##### HTTP(80)
+##### HTTPS(443) -> Secure
+##### SMTP(25) -> Mail
+##### IMAP(143/220/993) -> Mail Retrieval
+##### POP](109/110) -> Mail Retrieval
+##### DNS(53) -> Domain Name
+##### FTP(21) -> File Transfer
