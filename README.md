@@ -24,6 +24,7 @@
 ##### reverse -> flips the order of them
 ##### sort -> puts them in sorted order based on the values
 ##### split() -> if we have a string it breaks it out, looks for blanks and gives us a list of strings; split the things based on spaces
+##### .encode() -> prepare the data to go across the internet
 
 ## Some Definitions
 ##### parameter -> is a variable which is used in the function definition. It is a "handle" that allows the code in the function to access the argument for a particular function invocation.
@@ -152,3 +153,6 @@
 ##### POP](109/110) -> Mail Retrieval
 ##### DNS(53) -> Domain Name
 ##### FTP(21) -> File Transfer
+
+## urllib
+##### substitutes the socktes (does the work of sockets but you don't need to write all the code)
