@@ -1,4 +1,3 @@
-# http://py4e-data.dr-chuck.net/comments_42.html
 import urllib.request, urllib.parse, urllib.error
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
