@@ -142,6 +142,34 @@
 ##### -> get your own data back out of some system that has no "export capability"
 ##### -> monitor a site for new info
 ##### -> spider the web to make database for a search engine
+##### Socket -> its goal is to have one application process sending data to another application process
+
+## Web Services
+##### Decide a protocol that is independent of any programming language => the "Wire Protocol"
+##### Two ways to mark up data: XML & JSON
+### XML (eXtensible Markup Language) => Marking up data to send across the network
+##### Primary purpose -> help information system share structured data
+##### Think XML as a Tree, as Paths
+#### Terminology
+##### Tags -> indicate the beginning and the ending of elemnts
+##### Attributes -> Keyword/value pairs on the opening tag of XML
+##### Serialize/De-Serialize -> Convert data in one program into common format that can be stored and/or transmitted between systems in a programming language-independent manner
+### XML Schema -> description of the legal format of an XML document
+##### -> a language that allows if a particular document meets a contract
+##### XSD XML Schema -> World Wide Web Consortium (W3C), files end with .xsd
+### JSON (JavaScript Object Notation) => Object literal notation in JavaScript
+##### XML better for rich and hirerchial documents; JSON best for pulling data out of a system and moving between two systems (simplier)
+### SOA (Service Oriented Approach) => non-trivial web applications use services
+##### Credit Card Charge
+##### Hotel Reservation systems
+### API (Application Program Interface) -> specifies an inteface and controls the behavior of the objects specified in that inteface
+##### The software that provides functionality is an "implementation" of the API
+#### URL encoded
+##### "+" -> means space
+##### "%2C" -> comma
+##### We use a library in python that takes care of this
+
+
 
 ## Common TCP Ports
 ##### Telnet(23) -> Login
