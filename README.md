@@ -169,6 +169,23 @@
 ##### "%2C" -> comma
 ##### We use a library in python that takes care of this
 
+## Object Oriented Programming
+##### -> a program is made up of many cooperating objects
+##### -> instead of being a whole program - each object is a little island within the program and cooperatively working with other objects
+##### -> a program is made up of one or more objects working together
+##### -> a self contained Code and Data
+##### -> break the problem into smaller understandable parts
+
+## Definitions
+##### Class -> a template -Dog
+##### Method/Message -> a defined capability of a class - bark()
+##### Field/attribute -> a bit of a data in a class - length
+##### Object/Instance -> a particular instance of a class - Lassie
+##### Instance -> the actual object created at a runtime. We can have a kit of instances created from one class(We can have a lot of dogs with different name that come from the dog class)
+##### Method -> a bit of code that lives inside of an object
+##### Special blocks of code (methods) get called automatically from Python in our behalf -> constructor and destructor
+##### Constructor used to set up any initial values or variable if neccessary 
+#### Inheritance -> we can create a new class and reuse and inherit all the capabilities of an existing class and add whatever we want to (extend/subclass)
 
 
 ## Common TCP Ports
