@@ -176,6 +176,24 @@
 ##### -> a self contained Code and Data
 ##### -> break the problem into smaller understandable parts
 
+### Relational Databases -> model data by storing rows and columns in tables
+##### -> power lies in its ability to efficiently retrieve data from those tables and in particular where there are multiple tables and the relationships between those tables involved in the query
+##### Database -> contains many tables
+##### Relation (or table) -> contains tuples and attributes
+##### Tuple (or row) -> a set of fields that generally represents an "object like a person or a music track
+##### Attribute (also column or field) -> one of possibly many elements of data corresponding to the object represented by the row
+
+### SQL (Structured Query Language) -> is the language we sue to issue commands to the database
+##### - Create a table
+##### - Retrieve some data
+##### - Insert data
+##### - Delete data
+
+### Web Applications with Databases 
+##### Application Developer -> Builds the logic for the application, the look and feel of the app - monitors the app for the problems
+##### Database Administrator -> Monitors and adjusts the database as the program runs in production
+##### Often both people participate in the building of the "Data model"
+
 ## Definitions
 ##### Class -> a template -Dog
 ##### Method/Message -> a defined capability of a class - bark()
