@@ -188,6 +188,22 @@
 ##### - Retrieve some data
 ##### - Insert data
 ##### - Delete data
+##### INSERT INTO Users (name, email) VALUES ('Kristin', 'kf@umich.edu')
+##### DELETE FROM Users WHERE email='ted@umich.edu'
+##### UPDATE Users SET name="Charles" WHERE email='csev@umich.edu'
+##### SELECT * FROM Users
+##### SELECT * FROM Users WHERE email='csev@umich.edu'
+##### SELECT * FROM Users WHERE email='csev@umich.edu'
+
+#### Three kind of keys
+##### Primary key -> generally an integer auto-increment field (id)
+##### Logical key -> what the outside world uses for lookup (title)
+##### Foreign key -> generally an integer key pointing to a row in another table (artist_id)
+
+#### JOIN Operation
+##### -> links across several tables as part of a select operation
+##### -> must tell JOIN how to use the keys that make the connection between the tables using an ON clause
+##### -> Join puts it all together; takes the keys from the tables and JOINs them with the id keys from the other tables and when it puts them all together we get the table that we desired in the end
 
 ### Web Applications with Databases 
 ##### Application Developer -> Builds the logic for the application, the look and feel of the app - monitors the app for the problems
