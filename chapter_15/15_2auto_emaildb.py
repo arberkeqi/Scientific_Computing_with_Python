@@ -21,7 +21,6 @@ if (len(fname) < 1):
 
 fhand = open(fname)
 
-counts = dict()
 for lines in fhand:
     if not lines.startswith("From:"):
         continue
